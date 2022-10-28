@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Elementos de Interés en Bootstrap</title>
+</head>
+<body>
+    <section class="row m-5">
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">JUMBOTRON</h1>
+                <p class="col-md-8 fs-4">Esto es un Jumbotron en la primera sección del ejercicio de la lección 12.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Botón</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Ventana Modal</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            Esto es una ventana modal
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary">Guardar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="row m-5 justify-content-center">
+        <form class="col-6">
+            <div class="mb-3">
+                <label for="nombre" class="form-label fw-bold">Nombre y apellidos</label>
+                <input type="text" class="form-control border-0 border-bottom" id="nombre">
+                <div class="form-text text-info">Tu nombre</div>
+            </div>
+            <div class="mb-3">
+                <label for="numerotelefono" class="form-label fw-bold">Número de teléfono</label>
+                <input type="number" class="form-control border-0 border-bottom" id="numerotelefono">
+                <div class="form-text text-info">Tu nº teléfono</div>
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label fw-bold">Mensaje</label>
+                <textarea id="mensaje" type="text" class="form-control"></textarea>
+                <div class="form-text text-info">Tu mensaje</div>
+            </div>
+        </form>
+    </section>
+    <section class="row m-5 justify-content-center">
+        <div class="card col-5">
+            <div class="card-body">
+                <h5 class="card-title p-1 display-6 text-danger">Fernando Barroso Gallego</h5>
+                <p class="card-text m-3 col-7">Auxiliar administrativo con aspiraciones a programador</p>
+            </div> 
+            <div class="card-footer m-3">     
+                <a class="text-danger" href="mailto:fbg.91@hotmail.es">fbg.91@hotmail.es</a>
+            </div>  
+          </div>
+    </section>
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</html>
