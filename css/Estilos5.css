@@ -1,0 +1,17 @@
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fruta{
+    margin: 2px;
+    padding: 2px;
+    width: 300px;
+    opacity: 0.3;
+    border-radius: 25px;
+}
+
+.fruta:hover{
+    opacity: 1;
+    cursor: pointer;
+}
